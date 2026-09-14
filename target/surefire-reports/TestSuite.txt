@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.569 s <<< FAILURE! - in TestSuite
+logInTest(com.herokuapp.theinternet.PositiveTests)  Time elapsed: 21.065 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://the-internet.herokuapp.com/secure] but found [http://the-internet.herokuapp.com/login]
+	at com.herokuapp.theinternet.PositiveTests.logInTest(PositiveTests.java:45)
+
