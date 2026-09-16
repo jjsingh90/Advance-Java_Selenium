@@ -1,6 +1,6 @@
 package com.herokuapp.theinternet.pages;
 
-import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage extends BasePageObject{
 	
 	private WebDriver driver;
-	private Logger log;
+	protected Logger log;
 
 	private By usernameLocator = By.id("username");
 	private By passwordLocator = By.name("password");

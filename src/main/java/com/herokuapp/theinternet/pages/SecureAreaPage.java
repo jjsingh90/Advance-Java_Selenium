@@ -1,6 +1,6 @@
 package com.herokuapp.theinternet.pages;
 
-import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
