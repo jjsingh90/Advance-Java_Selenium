@@ -35,6 +35,9 @@ public class PositiveLoginTests extends TestUtilities {
 		// execute log in
 		SecureAreaPage secureAreaPage = loginPage.logIn("tomsmith", "SuperSecretPassword!");
 
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.urlToBe(secureAreaPage.getPageUrl()));
+		
 		// Verifications
 		// New page url is expected
 		Assert.assertEquals(secureAreaPage.getCurrentUrl(), secureAreaPage.getPageUrl());

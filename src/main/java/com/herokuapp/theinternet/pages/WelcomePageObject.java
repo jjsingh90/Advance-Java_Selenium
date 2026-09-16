@@ -8,8 +8,6 @@ import org.openqa.selenium.WebDriver;
 
 public class WelcomePageObject extends BasePageObject {
 
-	private WebDriver driver;
-	protected Logger log;
 	
 	private String pageUrl = "http://the-internet.herokuapp.com/";
 	
