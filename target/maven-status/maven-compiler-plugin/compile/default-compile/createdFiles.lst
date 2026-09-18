@@ -1,3 +1,4 @@
+com\herokuapp\theinternet\pages\DropdownPage.class
 com\herokuapp\theinternet\pages\SecureAreaPage.class
 com\herokuapp\theinternet\base\BaseTest.class
 com\herokuapp\theinternet\pages\CheckboxesPage.class

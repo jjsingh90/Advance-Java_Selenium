@@ -1,3 +1,4 @@
 com\herokuapp\theinternet\loginpagetests\PositiveLogInTests.class
 com\herokuapp\theinternet\checkboxespagetests\CheckboxesTests.class
+com\herokuapp\theinternet\dropdowntests\DropdownTest.class
 com\herokuapp\theinternet\loginpagetests\NegativeLogInTests.class

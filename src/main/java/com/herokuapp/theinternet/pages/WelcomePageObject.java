@@ -13,6 +13,7 @@ public class WelcomePageObject extends BasePageObject {
 	
 	private By formAuthenticationLinkLocator = By.linkText("Form Authentication");
 	private By checkboxesLinkLocator = By.linkText("Checkboxes");
+	private By dropdownLinkLocator = By.linkText("Dropdown");
 	
 	public WelcomePageObject(WebDriver driver,Logger log) {
 		// TODO Auto-generated constructor stub
@@ -39,6 +40,12 @@ public class WelcomePageObject extends BasePageObject {
 		log.info("Clicking Checkboxes link on Welcome Page");
 		click(checkboxesLinkLocator);
 		return new CheckboxesPage(driver, log);
+	}
+	
+	public DropdownPage clickDropdownLink() {
+		log.info("Clicking Dropdown link on Welcome Page");
+		click(dropdownLinkLocator);
+		return new DropdownPage(driver, log);
 	}
 
 }
