@@ -16,7 +16,7 @@ import com.herokuapp.theinternet.base.TestUtilities;
 import com.herokuapp.theinternet.pages.LoginPage;
 import com.herokuapp.theinternet.pages.WelcomePageObject;
 
-public class NegativeLoginTests extends TestUtilities {
+public class NegativeLogInTests extends TestUtilities {
 
 	
 

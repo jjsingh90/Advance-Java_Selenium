@@ -19,7 +19,7 @@ import com.herokuapp.theinternet.pages.LoginPage;
 import com.herokuapp.theinternet.pages.SecureAreaPage;
 import com.herokuapp.theinternet.pages.WelcomePageObject;
 
-public class PositiveLoginTests extends TestUtilities {
+public class PositiveLogInTests extends TestUtilities {
 
 	@Test
 	public void logInTest() {

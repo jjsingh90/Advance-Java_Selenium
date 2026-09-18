@@ -1,5 +1,6 @@
 com\herokuapp\theinternet\pages\SecureAreaPage.class
 com\herokuapp\theinternet\base\BaseTest.class
+com\herokuapp\theinternet\pages\CheckboxesPage.class
 com\herokuapp\theinternet\pages\WelcomePageObject.class
 com\herokuapp\theinternet\base\BrowserDriverFactory.class
 com\herokuapp\theinternet\base\TestUtilities.class
